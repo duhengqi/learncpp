@@ -37,9 +37,10 @@ public:
 };
 int main()
 {
+    int a = 5;
     Solution so;
     so.frequencySort("tree");
-
+    int b = a + 3;
     system("pause");
     return 0;
 }
