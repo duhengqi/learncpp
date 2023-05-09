@@ -8,6 +8,7 @@
 #include <unordered_set>
 #include <utility>
 #include <vector>
+#include <lambda_example.h>
 
 using namespace std;
 
@@ -19,25 +20,11 @@ using namespace std;
 输入：nums = [5,7,7,8,8,10], target = 8
 输出：[3,4]
 */
-class Solution {
-public:
-    vector<int> searchRange(vector<int>& nums, int target)
-    {
-        vector<int> result;
-        for (int i = 0; i < nums.size(); i++) {
-            if (nums[i] == target) {
-                result.push_back(i);
-            }
-        }
-        return result;
-    }
-
-};
 
 int main()
 {
-    Solution so;
+    LambdaExample5();
 
-    system("pause");
     return 0;
 }
+
